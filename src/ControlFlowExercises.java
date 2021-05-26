@@ -3,16 +3,16 @@ import java.util.Scanner;
 public class ControlFlowExercises {
     public static void main(String[] args) {
 //         1.a while
-
+// to get a horizontal answer you di print not println
 //        int i = 5;
 //        while (i <= 15) {
-//            System.out.println(i);
+//            System.out.print(i + " ");
 //            i++;
 //        }
 
 //        2.a do while
 
-//        int i = 2;
+//        int i = 0;
 //        do {
 //            System.out.println(i);
 //            i += 2;
@@ -29,7 +29,7 @@ public class ControlFlowExercises {
 //        do {
 //            System.out.println(i);
 //            i *= i;
-//        } while (i <= 1000000);
+//        } while (i < 1000000);
 
 
 //        1.c for
