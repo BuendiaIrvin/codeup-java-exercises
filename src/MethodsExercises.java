@@ -79,19 +79,16 @@ public static void diceRoll() {
     System.out.println("You rolled a " + result);
     }
 
-
-
     public static void main(String[] args) {
     addition(10,15);
     subtraction(30, 5);
     multiplication(5, 5);
     division(100, 4);
     modulus(35, 15);
-//    division(5,0);
-        multiplierLoop(5,5);
-        getInteger(1,20);
-        getFactorial();
-        diceRoll();
+    multiplierLoop(5,5);
+    getInteger(1,20);
+    getFactorial();
+    diceRoll();
 
     }
 }
