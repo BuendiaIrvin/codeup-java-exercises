@@ -92,3 +92,29 @@ public static void diceRoll() {
 
     }
 }
+   // Another method to multiply two numbers without using the “*” operator [duplicate]
+
+    // Using For loop
+//    public static int multiplierLoop(int a, int b) {
+//        int resultat = 0;
+//        for (int i = 0; i < a; i++) {
+//            resultat += b;
+//        }
+//
+//        return resultat;
+//    }
+
+    // using Recursion
+//    public static int multiplier(int a, int b) {
+//
+//        if ((a == 0) || (b == 0))
+//            return 0;
+//        else
+//            return (a + multiplier(a, b - 1));
+//
+//    }
+
+// Using Math.Log10
+//public static double multiplierLog(int a, int b) {
+//        return Math.pow(10, (Math.log10(a) + Math.log10(b)));
+//        }**
