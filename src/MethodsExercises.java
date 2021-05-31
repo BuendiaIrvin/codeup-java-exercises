@@ -118,3 +118,5 @@ public static void diceRoll() {
 //public static double multiplierLog(int a, int b) {
 //        return Math.pow(10, (Math.log10(a) + Math.log10(b)));
 //        }**
+
+
