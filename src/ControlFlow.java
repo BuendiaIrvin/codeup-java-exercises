@@ -60,12 +60,16 @@ public class ControlFlow {
 //        }
 //        System.out.println("e = " + e);
 
-        for (int i = 0; i < 10; i++){
-            System.out.println("now im in the loop. i has not incremented yet and its value is " + i);
-        }
+//        for (int i = 0; i < 10; i++){
+//            System.out.println("now im in the loop. i has not incremented yet and its value is " + i);
+//        }
+//
+//
+//
+//
+
+        int x = 5 * 4 % 3;
+        System.out.println(x);
+    }}
 
 
-
-
-    }
-}

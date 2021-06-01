@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class HighLow {
 
-    public static void diceRoll() {
+    public static void highLow() {
         Random r = new Random();
         int result = r.nextInt(100);
         System.out.println(result);
@@ -28,7 +28,7 @@ public class HighLow {
 
 
     public static void main(String[] args) {
-        diceRoll();
+        highLow();
 
     }
 }
