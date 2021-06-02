@@ -1,17 +1,19 @@
 package shapes;
 
 public class Circle {
-    private int radius;
-    public double pi = 3.14;
+    private double radius;
 
 
-    public Circle(double radius) {};
-
-    public void setRadius() {
+    public Circle(double radius) {
         this.radius = radius;
-}
+    };
 
     public double getArea() {
-        return (pi * radius * radius);
+    return (radius * radius) * Math.PI;
     }
+
+    public double getCircumference() {
+        return 2 * Math.PI * radius;
+    }
+
 }
