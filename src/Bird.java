@@ -1,37 +1,33 @@
 public class Bird {
-    //can a bird fly?
+    // can it fly?
     private boolean canFly;
 
-    private boolean isCanFly(){
+    public boolean isCanFly() {
         return canFly;
     }
-    public void setCanFLy(boolean canFly){
+
+    public void setCanFly(boolean canFly) {
         this.canFly = canFly;
     }
 
-
-    //what kind of bird?
+    // what kind of bird?
     private String name;
 
-    public String getName(){
+    public String getName() {
         return name;
     }
 
-    public void setName(String name){
+    public void setName(String name) {
+        // make sure this is not an Integer ...
+        // make sure user is logged in
         this.name = name;
     }
 
     public void makeNoise(){
-        System.out.println("Tweet tweet");
+        System.out.println(this.getName() + " Tweet tweet");
     }
 
     public void move(){
-        System.out.println("flap flap");
+        System.out.println("Flap flap");
     }
-
-
-
-
-
-
 }
