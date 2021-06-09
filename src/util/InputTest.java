@@ -7,7 +7,8 @@ public class InputTest {
 //        System.out.println(test.getString());
 //        System.out.println(test.getInt());
 //        System.out.println(test.yesNo());
-//        System.out.println(test.getInt(1,100));
+        System.out.println(test.getInt());
+        System.out.println(test.getDouble());
 //        System.out.println(test.getDouble(1,20));
 
 
