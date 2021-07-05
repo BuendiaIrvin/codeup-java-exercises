@@ -67,7 +67,7 @@ public class FileIOLec {
 
         //write to a file
 
-        List<String> romanEmpresses = Arrays.asList("Livia", "Agrippina", "Messaline", "Julia Domna");
+        List<String> romanEmpresses = Arrays.asList("Livia", "Agrippina", "Messaline", "Julia Domna", "Irvin");
         try {
             Files.write(toOurDataFile, romanEmpresses);
         } catch (IOException ioe){
@@ -126,7 +126,7 @@ public class FileIOLec {
         Iterator<String> listIterator = currentList.iterator();
         while(listIterator.hasNext()){
             String empress = listIterator.next();
-            if (empress.equals("Messaline")){
+            if (empress.equals("Theodora")){
                 listIterator.remove();
             }
         }
